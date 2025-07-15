@@ -1,7 +1,8 @@
 # submodKC
-Exact algorithm for submodular knapsack problem.
+Exact algorithm for the submodular knapsack problem.
 
-## Install Xmake
+## Prerequist 
+1. Install Xmake
 Xmake is a cross-platform build utility based on the Lua scripting language.
 
 With cURL
@@ -18,6 +19,12 @@ With PowerShell
 ```sh
 irm https://xmake.io/psget.text | iex
 ```
+2. Gurobi Version 12.01.
+
+Gurobi is a commercial mixed integer linear solver, see https://www.gurobi.com/.
+It is known that a free license can be applied for academic purpose.
+
+
 
 ## Build
 The first build will require downloading the `argparse` and `nlohmann_json` libraries.
@@ -49,3 +56,7 @@ You can run the program with `xmake r submodKC`. Or find the binary in path like
 - `-g`, `--gen-weight`: Weight distribution. \[`normal`, `uniform`, `unit`\]
 - `-s`, `--seed`: The seed for weight generation.
 - `-t`, `--time`: Time limit in seconds.
+
+# Citation
+If you use our codes, please cite our paper
+"Efficient Branch-and-Bound for Submodular Function Maximization under Knapsack Constraint."
