@@ -1,5 +1,7 @@
 # submodKC
-Exact algorithm for the submodular knapsack problem.
+This is the code for paper "Efficient Branch-and-Bound for Submodular Function Maximization under Knapsack Constraint"
+
+The work will be reported at the 28th European Conference on Artificial Intelligence (ECAI 2025). 
 
 ## Prerequist 
 1. Install Xmake
@@ -59,4 +61,15 @@ You can run the program with `xmake r submodKC`. Or find the binary in path like
 
 # Citation
 If you use our codes, please cite our paper
-"Efficient Branch-and-Bound for Submodular Function Maximization under Knapsack Constraint."
+```
+@misc 
+{hao2025efficient,
+      title={Efficient Branch-and-Bound for Submodular Function Maximization under Knapsack Constraint}, 
+      author={Yimin Hao and Yi Zhou and Chao Xu and Zhang-Hua Fu},
+      year={2025},
+      eprint={2507.11107},
+      archivePrefix={arXiv},
+      primaryClass={cs.DS},
+      url={https://arxiv.org/abs/2507.11107}, 
+}
+```
