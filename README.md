@@ -14,12 +14,12 @@ curl -fsSL https://xmake.io/shget.text | bash
 
 With Wget
 ```bash
-curl -fsSL https://xmake.io/shget.text | bash
+wget https://xmake.io/shget.text -O - | bash
 ```
 
 With PowerShell
 ```sh
-irm https://xmake.io/psget.text | iex
+Invoke-Expression (Invoke-Webrequest 'https://xmake.io/psget.text' -UseBasicParsing).Content
 ```
 2. Gurobi Version 12.01.
 
